@@ -1,0 +1,40 @@
+Practical Coding Tasks
+
+1. RESTful API Development
+   - Create a RESTful API endpoint in PHP that performs CRUD (Create, Read, Update, Delete) operations on a resource (e.g., products, users). Ensure the API supports JSON request and response formats.
+   - Implement rate limiting and authentication for the API.
+
+2. Advanced Data Manipulation
+   - Write a PHP script that connects to a database (your choice of MySQL, PostgreSQL, etc.) and performs a complex query that involves joins, subqueries, and aggregation functions. The script should also handle potential exceptions and errors gracefully.
+
+3. Performance Optimization
+   - Provide a PHP code snippet that demonstrates the use of caching to optimize a resource-intensive operation. Explain how the cache works and how it can be invalidated.
+
+Problem-Solving Scenario
+
+Scenario: You are tasked with optimizing an existing PHP web application that has been reported to suffer from slow page loads and occasional downtime during peak traffic hours.
+
+- Task 1: Analyze the situation and propose a detailed plan for diagnosing the performance issues. Mention the tools and techniques you would use.
+- Task 2: Suggest optimizations at the code level, server configuration, and database queries to improve performance.
+- Task 3: The application is currently vulnerable to SQL Injection and XSS attacks. Provide code examples to fix these vulnerabilities.
+
+Additional Requirement: Version Control and Code Sharing
+
+Task: Utilize Git and GitHub for Code Submission and Version Control
+
+- Step 1: Repository Setup
+  - Create a new GitHub repository to host the solutions for the coding test. The repository should be named in a way that reflects the nature of the test (e.g., `PHP-Advanced-Coding-Test`).
+  - Initialize the repository with a README.md file that briefly describes the purpose of the repository and an overview of the tasks included in the coding test.
+
+- Step 2: Committing and Pushing Code
+  - For each coding task (Part 2 and Part 3 of the coding test), the candidate should commit their code to the repository using meaningful commit messages that clearly describe the changes or enhancements made.
+  - Each major feature or task should be developed in a separate branch. Upon completion, the candidate should open a pull request against the main branch and merge it after a brief review of their own code. This simulates a collaborative code review process.
+
+- Step 3: Tagging and Releases
+  - Once all tasks are completed and the code for each task has been merged into the main branch, the candidate should tag the final state of the repository. The tag should follow semantic versioning (e.g., `v1.0.0`) and include a release note summarizing the coding test tasks and any special instructions for running the code.
+
+- Step 4: Documentation
+  - The candidate is expected to provide clear documentation in the repository's README.md for each part of the test, including setup instructions, how to run the code, and an explanation of the solutions. This documentation is crucial for evaluating the candidate's ability to communicate their work and ensure reproducibility.
+
+- Step 5: Reflect on the Process
+  - As an optional final step, the candidate may include a REFLECTION.md file in the repository, detailing their thought process, challenges faced, and how they overcame them during the coding test. This reflection can provide valuable insights into the candidate's problem-solving approach and adaptability.
